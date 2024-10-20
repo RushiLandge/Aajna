@@ -1,0 +1,39 @@
+.notification-table {
+    margin: 50px; /* Margin around the component */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 240px; /* Adjust based on your layout */
+    min-height: calc(100vh - 80px); /* Adjust for AppBar height (60px) and additional space (20px for top margin) */
+    overflow-x: auto;
+    overflow-y: auto;
+  }
+  
+  .notification-table h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .edit-btn, .delete-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 1.1rem; /* Icon size */
+    margin-left: 5px;
+  }
+  
+  .edit-btn {
+    color: #3498db; /* Edit icon color */
+  }
+  
+  .delete-btn {
+    color: #e74c3c; /* Delete icon color */
+  }
+  
+  .notification-table .rdt_TableRow:hover {
+    background-color: skyblue; /* Change to sky blue on hover */
+  }

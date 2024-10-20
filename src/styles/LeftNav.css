@@ -1,0 +1,42 @@
+.left-nav {
+    background-color: #4f94cd;
+    height: calc(100vh - 60px); /* Full viewport height minus AppBar height */
+    width: 220px;               /* Fixed width for the sidebar */
+    position: fixed;            /* Fix it on the left side */
+    top: 60px;                  /* Start below the AppBar (AppBar height is 60px) */
+    left: 0;
+    color: #ffffff;
+    z-index: 999;               /* Ensures it sits below AppBar */
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;          /* Some padding to give space to items */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    overflow-y: auto;           /* Allow scrolling if content overflows */
+}
+
+.left-nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;           /* Adjusted margin from the top */
+}
+
+.left-nav ul li {
+    margin-bottom: 20px;        /* Spacing between the list items */
+}
+
+.left-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;          /* Padding inside each link */
+    border-radius: 8px;          /* Rounded corners for links */
+}
+
+.left-nav ul li a:hover {
+    color: black;               /* Change text color on hover */
+    background-color: #87cefa;  /* Light blue background on hover */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}

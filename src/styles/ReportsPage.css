@@ -1,0 +1,33 @@
+/* src/components/ReportsPage.css */
+
+.reports-page {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for the page */
+  }
+  
+  .device-filter input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .device-filter span {
+    margin-left: 10px;
+    color: #00796b; /* Dark teal for the span text */
+  }
+  
+  /* MUI DataTable custom styles */
+  .MuiTableHead-root {
+    background-color: #00796b; /* Dark teal header background */
+    color: white; /* White text in header */
+  }
+  
+  .MuiTableCell-root {
+    border: 1px solid #e0e0e0; /* Light gray border for cells */
+  }
+  
+  /* Change background color on row hover */
+  .MuiTableRow-root:hover {
+    background-color: skyblue !important; /* Sky blue on hover */
+  }
+  
